@@ -1,0 +1,59 @@
+ChatBots
+
+https://www.tawk.to/
+
+https://www.bitrix24.mx/
+
+
+ 
+export function BlogCard() {
+  return (
+    <Card className="max-w-[24rem] overflow-hidden">
+      <CardHeader
+        floated={false}
+        shadow={false}
+        color="transparent"
+        className="m-0 rounded-none"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+          alt="ui/ux review check"
+        />
+      </CardHeader>
+      <CardBody>
+        <Typography variant="h4" color="blue-gray">
+          UI/UX Review Check
+        </Typography>
+        <Typography variant="lead" color="gray" className="mt-3 font-normal">
+          Because it&apos;s about motivating the doers. Because I&apos;m here to
+          follow my dreams and inspire others.
+        </Typography>
+      </CardBody>
+    
+    </Card>
+  );
+}
+
+
+
+Nosotros
+
+
+Qingdao Carebios Biological Technology Co., Ltd. es una empresa de alta tecnología con la tecnología de refrigeración como su núcleo, integrando investigación y desarrollo, fabricación, ventas y servicio. Diseñado y fabricado bajo su propia marca 'Carebios', su equipo de almacenamiento en frío criogénico médico y de laboratorio se instala ampliamente en bancos de sangre, hospitales, centros de control y prevención de epidemias, laboratorios, centros de investigación científica y el campo farmacéutico.
+
+
+
+Design 
+Hemos cubierto casi todas las necesidades de la cadena de frío médica, y la mayoría de nuestros productos cuentan con varios modelos de diferentes capacidades. Además, planeamos añadir dos o tres modelos nuevos cada año para satisfacer las diversas necesidades de los usuarios.
+
+Marketing
+Esperamos lograr una mayor precencia en el mercado internacional. Actualmente, tenemos las condiciones para competir con algunas grandes marcas en el mercado, y estamos invirtiendo muchos recursos en marketing para construir gradualmente la red de ventas.
+
+
+Production
+Seremos capaces de realizar una producción más eficiente y una inspección de calidad más rigurosa para asegurar una mayor capacidad de producción.
+
+Implementación completa de ISO9001 y gestión 6S en los sitios de producción
+
+
+
