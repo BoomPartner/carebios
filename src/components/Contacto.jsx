@@ -43,7 +43,7 @@ const PageContacto = () => {
       try {
         console.log(formData);
         console.log(typeof formData);
-        const response = await fetch("https://expres-jwgr.onrender.com/mailCarebios", {
+        const response = await fetch("http://tecknum.com/CAREBIOS_ENDPOINT_FORM/contactForm.php", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -53,7 +53,7 @@ const PageContacto = () => {
         if (response) {
           console.log("mensaje enviado");
           const data = await response.json()
-          // console.log(data);
+          console.log(data);
           setMensaje(true)
           setSpiner(false)
           setTimeout(() => {
