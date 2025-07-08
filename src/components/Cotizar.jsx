@@ -49,7 +49,7 @@ const PageCotizar = () => {
             try {
                 console.log(formData);
                 console.log(typeof formData);
-                const response = await fetch("http://tecknum.com/CAREBIOS_ENDPOINT_FORM/cotizaForm.php", {
+                const response = await fetch("https://tecknum.com/CAREBIOS_ENDPOINT_FORM/cotizaForm.php", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",

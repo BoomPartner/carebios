@@ -43,7 +43,7 @@ const PageContacto = () => {
       try {
         console.log(formData);
         console.log(typeof formData);
-        const response = await fetch("http://tecknum.com/CAREBIOS_ENDPOINT_FORM/contactForm.php", {
+        const response = await fetch("https://tecknum.com/CAREBIOS_ENDPOINT_FORM/contactForm.php", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
