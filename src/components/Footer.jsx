@@ -56,7 +56,7 @@ const Footer = () => {
                     <Typography variant='paragraph' className='text-left mt-10'>C.P 55076 Ecatepec de Morelos, Edo de México</Typography>
                     <div className="flex mt-5 items-center">
                         <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
-                        <Typography as={'p'} variant='paragraph' className='ml-5'>5534086252</Typography>
+                        <Typography as={'p'} variant='paragraph' className='ml-5'> 55 1153 9289</Typography>
                     </div>
                     <div className="flex mt-5 items-center">
                         <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>

@@ -103,7 +103,7 @@ const PageContacto = () => {
 
           <Typography as={"p"} variant='paragraph' className='w-full mt-2'>C.P 55076 Ecatepec de Morelos, Edo de México</Typography>
 
-          <Typography as={"p"} variant='paragraph' className='mt-2'>5534086252</Typography>
+          <Typography as={"p"} variant='paragraph' className='mt-2'>55 1153 9289</Typography>
 
           <div className="w-full flex justify-center items-center">
             <img src="/logos/logo.png" alt="logo-thermology" className='mt-4' width={200} height={200} />
