@@ -26,19 +26,19 @@ const Footer = () => {
                     <div className="w-full flex flex-wrap justify-center gap-10 mt-10">
 
                         <div className="">
-                            <FontAwesomeIcon icon={faFacebook} size='2x' color='#3B5998' className='cursor-pointer'></FontAwesomeIcon>
+                            <a href='https://www.facebook.com/ThermologyCorp/'><FontAwesomeIcon icon={faFacebook} size='2x' color='#3B5998' className='cursor-pointer'></FontAwesomeIcon></a>
                         </div>
 
                         <div className="">
-                            <FontAwesomeIcon icon={faInstagram} size='2x' color='#DD2A7B' className='cursor-pointer'></FontAwesomeIcon>
+                            <a href='https://www.instagram.com/thermologycorp/'><FontAwesomeIcon icon={faInstagram} size='2x' color='#DD2A7B' className='cursor-pointer'></FontAwesomeIcon></a>
                         </div>
 
                         <div className="">
-                            <FontAwesomeIcon icon={faLinkedin} size='2x' color='#0077B5' className='cursor-pointer'></FontAwesomeIcon>
+                            <a href='https://www.linkedin.com/company/thermology-corporation-s.a.-de-c.v./'><FontAwesomeIcon icon={faLinkedin} size='2x' color='#0077B5' className='cursor-pointer'></FontAwesomeIcon></a>
                         </div>
 
                         <div className="">
-                            <FontAwesomeIcon icon={faPinterest} size='2x' color='#BD081C' className='cursor-pointer'></FontAwesomeIcon>
+                            <a href='https://mx.pinterest.com/thermologycorp/'><FontAwesomeIcon icon={faPinterest} size='2x' color='#BD081C' className='cursor-pointer'></FontAwesomeIcon></a>
                         </div>
 
                     </div>

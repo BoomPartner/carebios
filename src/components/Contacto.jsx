@@ -89,7 +89,7 @@ const PageContacto = () => {
 
 
         <div className={`${windowWidth < 1330 ? "w-full flex justify-center" : "w-[50%]"} p-10`}>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.000031390504!2d-98.87360037610814!3d19.325804935198725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1fb82d684a19%3A0x2a20c7fb80bca8e1!2sManzana%2010%20Lote%203%2C%20Los%20Heroes%2C%2056585%20Ixtapaluca%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1712967805292!5m2!1ses-419!2smx"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8906.796419999217!2d-99.01160786018363!3d19.587365298415737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb0ac1000021%3A0x43deda9a1fa9aa74!2sThermology%20Corporation%20S.A.%20de%20C.V.!5e0!3m2!1ses!2smx!4v1752868712827!5m2!1ses!2smx"
             width={windowWidth < 1330 ? "1000" : "600"} height="450" style={{ border: "0px" }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div className="w-full mx-auto p-10">

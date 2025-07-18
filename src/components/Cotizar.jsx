@@ -187,9 +187,10 @@ const PageCotizar = () => {
                                 <Button className='bg-blue-500 px-10' onClick={handleData}> {spiner ? <Spinner className="h-5 w-5" /> : "Enviar"}</Button>
                             </div>
                             <div className="">
-                                <Link to={"https://wa.link/75kyjj"} target='_blank' className='hover:underline ring-offset-2'>Contáctanos por WhatsApp</Link>
+                                <Link to={"https://api.whatsapp.com/send/?phone=525511539289"} target='_blank' className='hover:underline ring-offset-2'>Contáctanos por WhatsApp</Link>
                             </div>
                         </div>
+
                         <div className="w-full">
 
                             <div className={`text-center text-md p-2 text-green-500  ${mensaje == true ? "" : "hidden"} transition-all duration-500`} id="exito">{"Muchas gracias, los datos han sido enviados. Nos pondremos en contacto contigo lo antes posible."}</div>
